@@ -88,3 +88,34 @@ tor-exit-nodes*
 # OS specific
 .DS_Store
 Thumbs.db
+
+
+## Demo
+
+![Demo](docs/images/demo.gif)
+
+## Screenshots
+
+### Successful Installation
+![Installation](docs/images/install.png)
+
+### Blocking in Action
+![Blocking](docs/images/blocking.png)
+```
+
+---
+
+## 🎯 Marketing Your Project
+
+### **Write a Good Project Description:**
+```
+🛡️ TorBlock - Production-grade Tor exit node blocker for Linux servers
+
+Secure your server from anonymous Tor traffic with this lightweight, 
+zero-dependency bash script. Uses nftables for efficient IP filtering. 
+Perfect for web servers, APIs, and services requiring authenticated access.
+
+⚡ Blocks 1000+ Tor nodes in seconds
+🔒 Production-tested and battle-hardened
+📊 Detailed logging and verification
+🚀 Easy automation with cron/systemd
