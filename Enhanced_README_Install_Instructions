@@ -98,3 +98,21 @@ sudo bash torblock.sh /path/to/tor-exit-nodes.txt
 - **Always use `sudo`** - nftables requires root privileges
 - **First run**: Use `sudo bash torblock.sh` or install first
 - **After installation**: Use `sudo torblock [command]`
+
+## Next Steps (Optional Enhancements):
+
+Set up automatic updates:
+
+bash   sudo crontab -e
+   # Add: 0 3 * * * /usr/local/bin/torblock --update >> /var/log/torblock-cron.log 2>&1
+
+Monitor blocked attempts:
+Add a counter to see how many packets you're blocking
+Test the blocking:
+Try connecting via Tor Browser to verify blocking works
+Make persistent:
+Ensure nftables rules persist across reboots
+
+bash  sudo systemctl enable nftables
+
+Congratulations! Your Tor blocking system is fully operational and protecting your server! 🛡️
