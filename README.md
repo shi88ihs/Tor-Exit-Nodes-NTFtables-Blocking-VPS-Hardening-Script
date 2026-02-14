@@ -1,11 +1,10 @@
-![GitHub stars](https://img.shields.io/github/stars/shi88ihs//torblock?style=social)
-![GitHub forks](https://img.shields.io/github/forks/shi88ihs//torblock?style=social)
-![GitHub issues](https://img.shields.io/github/issues/shi88ihs//torblock)
-![GitHub last commit](https://img.shields.io/github/last-commit/shi88ihs//torblock)
-![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-success)
-
 # VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-
-Tor Exit Nodes Blocking Script for Securing VPS' &amp; Web Infrstucture
+
+![GitHub stars](https://img.shields.io/github/stars/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-?style=social)
+![GitHub forks](https://img.shields.io/github/forks/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-?style=social)
+![GitHub issues](https://img.shields.io/github/issues/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-)
+![GitHub last commit](https://img.shields.io/github/last-commit/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-)
+![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-success)
 
 # 🛡️ TorBlock - Production-grade Tor exit node blocker for Linux servers
 
