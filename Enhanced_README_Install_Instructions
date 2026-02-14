@@ -116,3 +116,23 @@ Ensure nftables rules persist across reboots
 sudo systemctl enable nftables
 
 Congratulations! Your Tor blocking system is fully operational and protecting your server! 🛡️
+
+Now verify that everything is woring with these CMDs:
+
+Verification Commands:
+To monitor your protection:
+
+bash# See how many IPs are blocked
+sudo nft list set inet filter torlist | grep elements | wc -l
+
+# Check if drop rule is active
+sudo nft list chain inet filter input | grep torlist
+
+# View blocked connection attempts (if counter is added)
+sudo nft -a list chain inet filter input
+
+# Check status
+sudo torblock --status
+
+# View stats
+sudo torblock --stats
