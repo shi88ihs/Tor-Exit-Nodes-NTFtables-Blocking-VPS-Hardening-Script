@@ -1,4 +1,4 @@
-# VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-
+# Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script
 
 ![GitHub stars](https://img.shields.io/github/stars/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-?style=social)
