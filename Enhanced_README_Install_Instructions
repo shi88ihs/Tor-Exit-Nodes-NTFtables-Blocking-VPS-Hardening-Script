@@ -2,26 +2,26 @@
 
 ### Step 1: Download the Script
 ```bash
-git clone https://github.com/shi88ihs/Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening.git
-cd VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-
+git clone https://github.com/shi88ihs/Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script.git
+cd Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script
 ```
 
 ### Step 2: Make it Executable
 ```bash
-chmod +x torblock.sh
+chmod +x Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script-Enhanced.sh
 ```
 
 ### Step 3: Run the Script (Choose One Method)
 
 **Method A: Direct Run (Quick Test)**
 ```bash
-sudo bash torblock.sh
+sudo bash Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script-Enhanced.sh
 ```
 
 **Method B: Install System-Wide (Recommended for Production)**
 ```bash
 # Install the script to system PATH
-sudo bash torblock.sh --install
+sudo bash Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening-Script-Enhanced.sh --install
 
 # Then use as a command
 sudo torblock --update
