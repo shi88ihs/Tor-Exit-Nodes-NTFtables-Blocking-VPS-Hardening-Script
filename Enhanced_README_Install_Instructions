@@ -2,7 +2,7 @@
 
 ### Step 1: Download the Script
 ```bash
-git clone https://github.com/shi88ihs/VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-.git
+git clone https://github.com/shi88ihs/Tor-Exit-Nodes-NTFtables-Blocking-VPS-Hardening.git
 cd VPS-Tor-Exit-Nodes-NTFtables-Blocking-Script-
 ```
 
